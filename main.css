@@ -1,0 +1,541 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:10px;
+}
+
+.flex-container1{
+    display: flex;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container1 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container2 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: row-reverse;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container3 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container4{
+    display: flex;
+    flex-direction: column-reverse;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container4 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container5{
+    display: flex;
+    flex-wrap:nowrap;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container5 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container6{
+    display: flex;
+    flex-wrap:wrap;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container6 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container7{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container7 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container8{
+    display: flex;
+    flex-flow:wrap-reverse;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container8 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container9{
+    display: flex;
+    justify-content: flex-start;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container9 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container10{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container10 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+.flex-container11{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container11 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container12{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container12 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container13{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container13 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container14{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container14 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container15{
+    display: flex;
+    height: 400px;
+    align-items: stretch;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container15 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container16{
+    display: flex;
+    height: 400px;
+    align-items: start;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container16 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container17{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container17 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container18{
+    display: flex;
+    height: 400px;
+    align-items: end;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container18 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container19{
+    display: flex;
+    height: 400px;
+    align-items: baseline;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container19 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container20{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: start;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container20 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container21{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container21 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+.flex-container22{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: end;
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container22 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container23{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container23 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container24{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container24 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container25{
+    display: flex;
+    height: 400px;
+    
+    
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container25 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container26{
+    display: flex;
+    height: 400px;
+    
+    
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container26 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
+.flex-container27{
+    display: flex;
+    height: 400px;
+    
+    
+    padding:10px;
+    background-color: #85aedd;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+
+.flex-container27 div{
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color:#fdcfcf;
+    border:2px solid black;
+}
+
