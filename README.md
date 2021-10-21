@@ -1,5 +1,5 @@
 # FLEXIBLE
-# A visual guid to CSS FLEXBOX styling
+A visual guidE to CSS FLEXBOX styling
 ![ROOM](https://i.postimg.cc/X76NkW33/foto1.png)
 ![ROOM](https://i.postimg.cc/wT5qWrTN/foto2.png)
 ![ROOM](https://i.postimg.cc/W122x7hH/foto3.png)
